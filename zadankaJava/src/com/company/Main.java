@@ -9,9 +9,9 @@ public class Main {
         me.lastName = "Kowalska";
         me.pet = new Animal("Lizard");
 
-        me.car = new Car("BMW", "X7", 3.0);
-        me.car.color = "Black";
+        me.setCar(new Car("BMW", "X7", 3.0));
+        me.getCar();
 
-        System.out.println(me.car.model);
+        System.out.println(me.getCar().model);
     }
 }

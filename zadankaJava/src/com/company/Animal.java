@@ -3,7 +3,6 @@ package com.company;
 public class Animal {
     final String species;
     String name;
-    File pic;
     private Double weight;
 
     static final Double DEFAULT_DOG_WEIGHT = 11.0;

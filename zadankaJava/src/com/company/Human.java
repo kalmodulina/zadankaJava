@@ -30,7 +30,7 @@ public class Human {
         return this.car;
     }
 
-    public Car setCar(Car car){
+    public void setCar(Car car){
         if(this.salary > car.price){
             System.out.println("You bought a car for cash.");
             this.car = car;

@@ -1,24 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aaf6d1d-f07c-4033-95be-dd66854d0890" name="Default Changelist" comment="" />
+    <list default="true" id="2aaf6d1d-f07c-4033-95be-dd66854d0890" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zadankaJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zadankaJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadankaJava/src/com/company/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadankaJava/src/com/company/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadankaJava/src/com/company/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadankaJava/src/com/company/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadankaJava/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadankaJava/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ahwzFkUW6UR1ImOuoWS6mAABAe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/.jdks/openjdk-14.0.1" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Programowanie w java" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <module name="zadankaJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -37,11 +70,84 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2469" y="154" key="FileChooserDialogImpl" timestamp="1587201465792">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state x="464" y="16" key="#Main" timestamp="1588427628205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="16" key="#Main/0.0.1536.824@0.0.1536.824" timestamp="1588427628205" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1589107086860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589107086860" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589111948654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589111948654" />
+    <state x="544" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588414434304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="544" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1588414434304" />
+    <state x="498" y="186" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589111932876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="186" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1589111932876" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588414653754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1588414653754" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1588428687286">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2469" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1587201465792" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588428687286" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1589111809209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589111809209" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1589111809209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589111809209" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1589111809209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589111809209" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1589111809209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589111809209" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1589111809023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589111809023" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1589111809022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589111809022" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1589111809022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589111809022" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1589111809023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589111809023" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1588412917933">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588412917933" />
     <state x="2129" y="33" key="new project wizard" timestamp="1587201476955">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
