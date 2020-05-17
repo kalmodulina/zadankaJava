@@ -1,16 +1,20 @@
 package devices;
 
-public class Car {
-    public final String producer;
-    public final String model;
+public class Car extends Device {
     public final Double engineSize;
     public String color;
-    public Double price;
+    public Double price = 12000.0;
     
-    public Car(String producent, String model, Double engineSize) {
-        this.producer = producent;
-        this.model = model;
+    public Car(String producer, String model, Integer yearOfProduction, Double engineSize, String color, Double price) {
+        super(producer, model, yearOfProduction);
         this.engineSize = engineSize;
+        this.color = color;
+        this.price = price;
+    }
+
+    @Override
+    public void turnOn() {
+        System.out.println("OK");
     }
 
     public String toString() {
