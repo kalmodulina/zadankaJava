@@ -2,7 +2,7 @@ package devices;
 
 import com.company.Human;
 
-public class Car extends Device {
+public abstract class Car extends Device {
     public final Double engineSize;
     public String color;
     public Double price = 12000.0;
@@ -33,6 +33,8 @@ public class Car extends Device {
         seller.setCar(null);
         System.out.println(buyer.firstName + " already bought " + this + " from " + seller.firstName);
     }
+
+    public abstract void refuel();
 
     public String toString() {
         return this.producer + " " + this.model + " " + this.engineSize;

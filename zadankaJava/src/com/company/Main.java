@@ -1,7 +1,7 @@
 package com.company;
-import creatures.Animal;
 import creatures.Pet;
 import devices.Car;
+import devices.Disel;
 import devices.Phone;
 
 public class Main {
@@ -16,7 +16,7 @@ public class Main {
         me.animal.feed(12.5);
         me.animal.feed();
 
-        Car car = new Car("BMW", "X1", 2008, 3.0, "black", 32000.0);
+        Car car = new Disel("BMW", "X1", 2008, 3.0, "black", 32000.0);
         System.out.println(car);
         car.turnOn();
 
