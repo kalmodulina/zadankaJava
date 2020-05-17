@@ -1,4 +1,6 @@
 package com.company;
+import creatures.Animal;
+import creatures.Pet;
 import devices.Car;
 import devices.Phone;
 
@@ -9,7 +11,10 @@ public class Main {
         Human me = new Human();
         me.firstName = "Zosia";
         me.lastName = "Kowalska";
-        me.pet = new Animal("Lizard");
+        me.animal = new Pet("Lizard");
+
+        me.animal.feed(12.5);
+        me.animal.feed();
 
         Car car = new Car("BMW", "X1", 2008, 3.0, "black", 32000.0);
         System.out.println(car);

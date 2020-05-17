@@ -1,4 +1,5 @@
 package com.company;
+import creatures.Animal;
 import devices.Car;
 import devices.Phone;
 
@@ -6,7 +7,7 @@ public class Human implements Saleable{
     public String firstName;
     public String lastName;
     public Phone phone;
-    Animal pet;
+    public Animal animal;
     private Car car;
     private Double salary;
     public Double cash;
@@ -50,6 +51,6 @@ public class Human implements Saleable{
     }
 
     public String toString() {
-        return this.firstName + " " + this.lastName + " " + this.phone + " " + this.pet;
+        return this.firstName + " " + this.lastName + " " + this.phone + " " + this.animal;
     }
 }
