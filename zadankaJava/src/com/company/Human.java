@@ -1,4 +1,6 @@
 package com.company;
+import devices.Car;
+import devices.Phone;
 
 public class Human {
     String firstName;
@@ -40,5 +42,9 @@ public class Human {
         } else {
             System.out.println("Your salary is too low to buy this car.");
         }
+    }
+
+    public String toString() {
+        return this.firstName + " " + this.lastName + " " + this.phone + " " + this.pet;
     }
 }

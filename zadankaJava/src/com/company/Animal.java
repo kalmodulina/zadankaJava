@@ -1,8 +1,8 @@
 package com.company;
 
 public class Animal {
-    final String species;
-    String name;
+    public final String species;
+    public String name;
     private Double weight;
 
     static final Double DEFAULT_DOG_WEIGHT = 11.0;
@@ -40,5 +40,9 @@ public class Animal {
             System.out.println("thx for a walk, my weight is now " + weight);
             weight -= 0.1;
         }
+    }
+
+    public String toString() {
+        return this.species + " " + this.name;
     }
 }
