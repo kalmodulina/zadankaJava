@@ -1,6 +1,8 @@
 package devices;
+import com.company.Human;
+import com.company.Saleable;
 
-public abstract class Device {
+public abstract class Device implements Saleable {
     public final String producer;
     public final String model;
     public final Integer yearOfProduction;
@@ -12,6 +14,10 @@ public abstract class Device {
     }
 
     public abstract void turnOn();
+
+    public void sell(Human seller, Human buyer, Double price) throws Exception {
+
+    }
 
     @Override
     public String toString() {

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Animal {
+public class Animal implements Saleable {
     public final String species;
     public String name;
     private Double weight;
@@ -40,6 +40,20 @@ public class Animal {
             System.out.println("thx for a walk, my weight is now " + weight);
             weight -= 0.1;
         }
+    }
+
+    public void sell(Human seller, Human buyer, Double price) throws Exception {
+        if (buyer.cash < price) {
+            throw new Exception("You do not have enough money to buy this car.");
+        }
+        if (seller.pet != this) {
+            throw new Exception("You cannot sell animal which is not yours.");
+        }
+        buyer.cash -= price;
+        seller.cash += price;
+        buyer.pet = this;
+        seller.pet = null;
+        System.out.println(buyer.firstName + " already bought " + this + " from " + seller.firstName);
     }
 
     public String toString() {

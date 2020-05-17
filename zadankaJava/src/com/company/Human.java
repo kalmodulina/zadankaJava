@@ -2,13 +2,14 @@ package com.company;
 import devices.Car;
 import devices.Phone;
 
-public class Human {
-    String firstName;
-    String lastName;
-    Phone phone;
+public class Human implements Saleable{
+    public String firstName;
+    public String lastName;
+    public Phone phone;
     Animal pet;
     private Car car;
     private Double salary;
+    public Double cash;
 
     public Double getSalary(){
         System.out.println("Your data about salary were downloaded a week ago and were equal to 4500.");
@@ -42,6 +43,10 @@ public class Human {
         } else {
             System.out.println("Your salary is too low to buy this car.");
         }
+    }
+
+    public void sell(Human seller, Human buyer, Double price) throws Exception {
+        throw new Exception("Human trafficking is prohibited.");
     }
 
     public String toString() {
