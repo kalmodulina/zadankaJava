@@ -6,11 +6,13 @@ public abstract class Device implements Saleable {
     public final String producer;
     public final String model;
     public final Integer yearOfProduction;
+    public final Double value;
 
-    public Device(String producer, String model, Integer yearOfProduction) {
+    public Device(String producer, String model, Integer yearOfProduction, Double value) {
         this.producer = producer;
         this.model = model;
         this.yearOfProduction = yearOfProduction;
+        this.value = value;
     }
 
     public abstract void turnOn();
@@ -21,6 +23,6 @@ public abstract class Device implements Saleable {
 
     @Override
     public String toString() {
-        return "Producer: " + this.producer +  " Model: " + this.model + " Year of production: " + this.yearOfProduction;
+        return "Producer: " + this.producer +  " Model: " + this.model + " Year of production: " + this.yearOfProduction + " Value: " + this.value;
     }
 }

@@ -5,13 +5,11 @@ import com.company.Human;
 public abstract class Car extends Device {
     public final Double engineSize;
     public String color;
-    public Double price = 12000.0;
     
-    public Car(String producer, String model, Integer yearOfProduction, Double engineSize, String color, Double price) {
-        super(producer, model, yearOfProduction);
+    public Car(String producer, String model, Integer yearOfProduction, Double value, Double engineSize, String color) {
+        super(producer, model, yearOfProduction, value);
         this.engineSize = engineSize;
         this.color = color;
-        this.price = price;
     }
 
     @Override
@@ -21,16 +19,19 @@ public abstract class Car extends Device {
 
     @Override
     public void sell(Human seller, Human buyer, Double price) throws Exception {
+        if (!seller.isCarInGarage(this)) {
+            throw new Exception("You do not have this car in your garage. You cannot sell car which is not yours.");
+        }
+        if (!buyer.isFreeParkingSpace()) {
+            throw new Exception("You do not have free parking space in your garage.");
+        }
         if (buyer.cash < price) {
             throw new Exception("You do not have enough money to buy this car.");
         }
-        if (seller.getCar() != this) {
-            throw new Exception("You cannot sell car which is not yours.");
-        }
+        seller.removeCar(this);
+        buyer.addCar(this);
         buyer.cash -= price;
         seller.cash += price;
-        buyer.setCar(this);
-        seller.setCar(null);
         System.out.println(buyer.firstName + " already bought " + this + " from " + seller.firstName);
     }
 
