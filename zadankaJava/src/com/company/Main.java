@@ -1,15 +1,11 @@
 package com.company;
 import creatures.Pet;
-import devices.Car;
-import devices.Disel;
-import devices.Electric;
-import devices.Phone;
-
+import devices.*;
 import java.util.Arrays;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Human me = new Human();
         me.firstName = "Zosia";
@@ -18,6 +14,7 @@ public class Main {
 
         me.animal.feed(12.5);
         me.animal.feed();
+        me.cash = 60000.0;
 
 
 
@@ -35,7 +32,18 @@ public class Main {
         System.out.println(me.totalValueOfCarsInGarage());
 
         Phone phone = new Phone("Huawei", "P40", 2020, 1200.0, 20.0);
-        System.out.println(phone);
-        phone.turnOn();
+        me.phone = phone;
+
+        Application application = new Application("App", "v 1.0", 0.0);
+        phone.installApplication(me, application);
+        Application application2 = new Application("App2", "v 1.2", 12.0);
+        phone.installApplication(me, application2);
+        System.out.println("All installed application applications: ");
+        System.out.println(Arrays.toString(phone.allInstalledApplications().toArray()));
+        phone.printAllFreeApplications();
+        phone.printAllInstalledApplicationNamesInAlphabeticalOrder();
+        phone.printAllInstalledApplicationNamesInPriceOrder();
+        System.out.println(phone.isApplicationWithGivenNameAlreadyInstalled(application.getName()));
+        System.out.println(phone.isApplicationWithGivenNameAlreadyInstalled("Not exist"));
     }
 }
