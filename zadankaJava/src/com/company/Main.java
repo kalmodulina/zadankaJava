@@ -23,6 +23,10 @@ public class Main {
 
         Car car = new Disel("BMW", "X1", 2008, 32000.0,3.0, "black");
         me.setCar(car, 0);
+        System.out.println(car.transactionCount());
+        System.out.println(car.isOwner(me));
+        System.out.println(car.wasOwner(me));
+        System.out.println(car.wasSellerAndBuyer(me, new Human()));
 
         Car car2 = new Electric("Fiat", "Punto", 1999, 10000.0,2.4, "orange");
         me.setCar(car2, 1);
